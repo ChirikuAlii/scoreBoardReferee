@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bacground"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chiriku711.scoreboardreferee.MainActivity">
+
+<LinearLayout
+    android:background="@color/colorPrimary"
+    android:layout_weight="3"
+android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="35sp"
+        android:textColor="#E0E0E0"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Select Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/bacground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_basketball"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:textColor="@color/text_color"
+                android:background="@drawable/ripple"
+                android:drawableTop="@drawable/ic_basketball"
+                android:text="Basket" />
+
+            <Button
+                android:id="@+id/btn_badminton"
+                android:textColor="@color/text_color"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/ripple"
+                android:drawableTop="@drawable/ic_badminton_feather"
+                android:text="Badminton" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:background="@color/bacground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_tennis"
+                android:textColor="@color/text_color"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/ripple"
+                android:drawableTop="@drawable/ic_tennis_ball"
+                android:text="Tennis" />
+
+            <Button
+                android:id="@+id/btn_volley"
+                android:textColor="@color/text_color"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/ripple"
+                android:drawableTop="@drawable/ic_volley_ball"
+                android:text="Volley" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
